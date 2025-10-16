@@ -18,8 +18,8 @@ void arrayList_destroy(ArrayList* list);
 // void* data     pointer to array of data
 // int   count    count of data
 // return:
-//   1 if data add to arrayList
-//   0 if data not add to arrayList - error
+//   1 data add to arrayList
+//   0 data not add to arrayList - error
 bool arrayList_push_back(ArrayList* list, void* data, int count);
 
 
